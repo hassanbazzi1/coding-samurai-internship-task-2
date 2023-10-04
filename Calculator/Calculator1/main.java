@@ -5,16 +5,13 @@ public class main {
     public static void main(String[] args) {
         Real real = new Real();
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Choose your operation ");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
         System.out.println("5. Modulo");
-
         int choice = scanner.nextInt();
-
         switch (choice) {
             case 1:
                 System.out.print("Enter the first number: ");
